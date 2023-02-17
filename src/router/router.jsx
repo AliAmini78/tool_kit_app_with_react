@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
-import ContactUs from '../Pages/ContactUs/ContactUs'
-import NotFound from '../Pages/Responses/404';
+import ContactUs from "../pages/ContactUs/ContactUs"
+import NotFound from '../pages/Responses/404';
 import Post from '../pages/Post/Post';
 import SinglePost from "../pages/Post/Single/SinglePost";
 import CreatePost from "../pages/Post/Create/CreatePost";
