@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
 import ContactUs from "../pages/ContactUs/ContactUs"
-import NotFound from "../pages/Responses/404";
 import Post from '../pages/Post/Post';
 import SinglePost from "../pages/Post/Single/SinglePost";
 import CreatePost from "../pages/Post/Create/CreatePost";
-import Layout from '../layout/Layout';
+import Layout from "../layout/Layout";
+import NotFound from "../pages/Responses/NotFound";
 
 const router = createBrowserRouter([
   {
