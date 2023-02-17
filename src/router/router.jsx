@@ -5,7 +5,7 @@ import Post from '../pages/Post/Post';
 import SinglePost from "../pages/Post/Single/SinglePost";
 import CreatePost from "../pages/Post/Create/CreatePost";
 import Layout from "../layout/Layout";
-import NotFound from "../pages/Responses/NotFound";
+import NotFound from "../pages/Responses/test";
 
 const router = createBrowserRouter([
   {
