@@ -10,7 +10,7 @@ const Todo = () => {
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const test = () => {
+  const updateTodos = () => {
     todoService
       .getAllTodo()
       .then((response) => {
@@ -21,16 +21,7 @@ const Todo = () => {
       });
   };
   useEffect(() => {
-    test();
-    // console.log('ali')
-    // todoService
-    //   .getAllTodo()
-    //   .then((response) => {
-    //     setTodos(response.data);
-    //   })
-    //   .catch((exception) => {
-    //     console.log(exception);
-    //   });
+    updateTodos();
   }, []);
 
   const handleInputChange = (e) => {
